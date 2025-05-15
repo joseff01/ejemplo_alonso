@@ -1,12 +1,14 @@
 
 class Dog:
-    
-    def __init__(self, raza):
+
+    def __init__(self, color, raza):
         
+        self.color = color
         self.raza = raza
 
     def say_color(self):
-        print("my raza is: ", self.raza)
+        print("my color is: ", self.color)
+
         
 
 my_dog = Dog("amarillo")
