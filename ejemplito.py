@@ -10,6 +10,7 @@ class Dog:
         
 
 my_dog = Dog("amarillo")
+my_dog_red = Dog("red")
 
 my_dog.say_color()
 
